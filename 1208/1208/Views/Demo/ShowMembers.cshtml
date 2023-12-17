@@ -1,20 +1,23 @@
 ﻿@{
-	ViewBag.Title = "ShowMembers";
+    ViewBag.Title = "ShowMembers";
 }
+
+@model IEnumerable<Member>
+
 <h2>show member</h2>
 <div>
-    @if (ViewData["Members"] != null)
-{
-    foreach (var member in ViewData["Members"] as List<Member>)
+    @if (Model != null && Model.Any())
     {
-        <label>會員編號:</label> @member.Id
-        <br />
-        <label>會員姓名:</label> @member.Name
-        <br />
-        <label>年齡:</label> @member.Age
-        <hr />
+        foreach (var member in Model)
+        {
+            <label>會員編號:</label> @member.Id
+            <br />
+            <label>會員姓名:</label> @member.Name
+            <br />
+            <label>年齡:</label> @member.Age
+            <hr />
+        }
     }
-}
     else
     {
         <p>沒有找到會員資料。</p>

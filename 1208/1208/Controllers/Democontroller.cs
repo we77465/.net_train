@@ -25,8 +25,9 @@ namespace _1208.Controllers
             var memberB = new Member() { Id = 2, Name = "Ben", Age = 34 };
             var memberC = new Member() { Id = 3, Name = "Carol", Age = 56 };
             var memberList = new List<Member>() { memberA, memberB, memberC };
-            ViewData["Members"] = memberList;
-            return View();
+            //ViewData["Members"] = memberList;
+            //return View();
+            return View(memberList);
         }
 
         [HttpGet]
