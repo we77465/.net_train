@@ -21,10 +21,10 @@ namespace _1208.Controllers
 
         public ActionResult ShowMembers()
         {
-            var memberA = new Menber() { id = 1, Name = "Alex", age = 12 };
-            var memberB = new Menber() { id = 2, Name = "Ben", age = 34 };
-            var memberC = new Menber() { id = 3, Name = "Carol", age = 56 };
-            var memberList = new List<Menber>() { memberA, memberB, memberC };
+            var memberA = new Member() { Id = 1, Name = "Alex", Age = 12 };
+            var memberB = new Member() { Id = 2, Name = "Ben", Age = 34 };
+            var memberC = new Member() { Id = 3, Name = "Carol", Age = 56 };
+            var memberList = new List<Member>() { memberA, memberB, memberC };
             ViewData["Members"] = memberList;
             return View();
         }
