@@ -223,3 +223,8 @@ C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\bin\Debug\net
 C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\obj\Debug\net6.0\1208.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\obj\Debug\net6.0\1208.csproj.CopyComplete
+C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\obj\Debug\net6.0\staticwebassets\msbuild.1208.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\obj\Debug\net6.0\staticwebassets\msbuild.build.1208.props
+C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.1208.props
+C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.1208.props
+C:\Users\kenan\Desktop\SlideProject\net_train\.net_train\1208\1208\obj\Debug\net6.0\staticwebassets.pack.json

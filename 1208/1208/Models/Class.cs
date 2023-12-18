@@ -8,4 +8,19 @@
         public string? RequestId { get; set; }
 
     }
+
+    public class Product
+    {
+        public int Number{get;set;}
+        
+        public string? Name{get;set;}
+
+        public int Price{get;set;}
+    }
+
+    public class MemberInfoViewModel
+    {
+        public Member ?Member { get; set; }
+        public List<Product> ?Products { get; set; }
+    }
 }

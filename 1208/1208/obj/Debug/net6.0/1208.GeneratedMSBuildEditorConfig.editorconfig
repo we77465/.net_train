@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _1208
 build_property.RootNamespace = _1208
@@ -25,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/kenan/Desktop/SlideProject/net_train/.net_train/1208/1208/Views/Demo/ShowMembers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xTaG93TWVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kenan/Desktop/SlideProject/net_train/.net_train/1208/1208/Views/Demo/ShowShoppingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xTaG93U2hvcHBpbmdMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kenan/Desktop/SlideProject/net_train/.net_train/1208/1208/Views/Home/Index.cshtml]
