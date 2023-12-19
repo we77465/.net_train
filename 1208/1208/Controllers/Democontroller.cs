@@ -12,6 +12,8 @@ namespace _1208.Controllers
             return View();
         }
 
+        
+
         public IActionResult show()
         {
             ViewData["name"] = "屁股";
@@ -22,6 +24,7 @@ namespace _1208.Controllers
          public ActionResult ShowShoppingList()
         {
             var member = new Member() { Id = 1, Name = "Alex", Age = 12 };
+            
             var products = new List<Product>();
             products.Add(new Product { Number = 1, Name = "Apple", Price = 30 });
             products.Add(new Product { Number = 2, Name = "Banana", Price = 50 });
