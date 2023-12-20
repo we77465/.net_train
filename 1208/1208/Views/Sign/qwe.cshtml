@@ -1,0 +1,15 @@
+@using _1208.Models;
+@model NewMember;
+@{
+    ViewBag.Title = "bang";
+}
+
+<h2>123</h2>
+
+@using (Html.BeginForm("sign","login"))
+{
+    <div class = "container">
+        @Html.Label("帳號")
+        @Html.TextBoxFor(m=>m.Id,"",new {@class = "text-danger"})
+    </div>
+}

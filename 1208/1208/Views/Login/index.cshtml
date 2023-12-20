@@ -5,15 +5,23 @@
 <h2>LogIn Page</h2>
 
 <div class="container">
-    <form method="post" action="~/login/verify">
-        <label>Account</label>
+    @* <form method="post" action="~/login/verify"> *@
+    @using (Html.BeginForm("Verify", "Login", FormMethod.Post))
+    {
+    
+        @Html.Label("account")
         <br />
-        <input type="text" name="account" />
+        @* <input type="text" name="account" class="form-control" required /> *@
+        @Html.TextBox("account", null, new { @class = "form-control", required = "required" })
+        
         <br /><br />
         <label>Password</label>
         <br />
-        <input type="text" name="password" />
+        @Html.Password("password", null, new { @class = "form-control", required = "required" })
+        @* <input type="text" name="password" required/> *@
         <br /><br />
         <input type="submit" name="submit" value="Login" class="btn btn-primary" />
-    </form>
+    
+    }
+    @* </form> *@
 </div>

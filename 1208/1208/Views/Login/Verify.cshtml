@@ -8,5 +8,6 @@
     <ol>
         <li>User: @ViewBag.Account</li> 
         <li>Pwd: @ViewBag.Password</li>
+        @Html.ActionLink("回登入畫面", "Index", null, new { name = "link", @class = "btn btn-sm btn-default" })
     </ol>
 </div>

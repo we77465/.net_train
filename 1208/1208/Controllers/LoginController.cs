@@ -18,6 +18,21 @@ namespace _1208.Controllers
             return View();
         }
 
+
+        [HttpGet]
+        public ActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Register(NewMember member)
+        {
+            return View(member);
+        }
+
+
+
         public IActionResult Privacy()
         {
             return View();
