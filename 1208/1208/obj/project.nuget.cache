@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ea9TpSc76nfJh7xVFU31LecKtPNiVNNipSo04o1aV/K/xf1+tGnW0QSKVyAUHN3Yr/PUOa1rNTvzBkMeYaqQqg==",
+  "dgSpecHash": "rbyjfVh9uHitGk6kz9Y/MEk3ijjuf/TfLdHpyVbIoSMg+rAn3myXNKtswLM7CdNKD8L2/iAj4+zyq4NY2+stGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kenan\\Desktop\\SlideProject\\net_train\\.net_train\\1208\\1208\\1208.csproj",
   "expectedPackageFiles": [
@@ -198,11 +198,7 @@
     "C:\\Users\\kenan\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\kenan\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\kenan\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\kenan\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\kenan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.15\\microsoft.netcore.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\kenan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.15\\microsoft.windowsdesktop.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\kenan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.15\\microsoft.aspnetcore.app.ref.6.0.15.nupkg.sha512",
-    "C:\\Users\\kenan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.15\\microsoft.netcore.app.host.win-x64.6.0.15.nupkg.sha512"
+    "C:\\Users\\kenan\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
